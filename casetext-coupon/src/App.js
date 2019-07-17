@@ -1,20 +1,12 @@
 import React from "react";
-import styled from "styled-components/macro";
-
-import logo from "./logo.svg";
-
-const StyledBox = styled.div`
-  background-color: red;
-  height: 20px;
-  width: 20px;
-`;
+import Navigation from "./Navigation";
+import Body from "./Body";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <StyledBox />
-      </header>
+      <Navigation />
+      <Body />
     </div>
   );
 }
