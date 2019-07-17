@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "./assets/ct-logo-dark.webp";
-import { Navbar, NavLink, LeftNavItem, RightNavItem } from "./App.style";
+import { Navbar, Logo, NavLink, LeftNavItem, RightNavItem } from "./App.style";
 
 const Navigation = () => (
   <Navbar>
     <LeftNavItem>
-      <img src={logo} className="App-logo" alt="logo" />
+      <Logo src={logo} className="App-logo" alt="logo" />
     </LeftNavItem>
     <RightNavItem>
       <NavLink>Product</NavLink>

@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BodyContent,
-  ValueProp,
-  ProofPoints,
-  CallToAction,
-  CallToActionButton
-} from "./App.style";
+import { BodyContent, ValueProp, ProofPoints } from "./App.style";
 
 const Body = () => (
   <BodyContent>
@@ -32,11 +26,6 @@ const Body = () => (
       Our satisfaction level is through the roof. Most of our customers say
       they’d happily recommend Casetext to friends and colleagues. And they do.
     </ProofPoints>
-    <CallToAction>
-      Our base price is $65/month for an annual subscription
-    </CallToAction>
-    <CallToActionButton>Subscribe</CallToActionButton>
-    <div>{window.location.pathname}</div>
   </BodyContent>
 );
 
