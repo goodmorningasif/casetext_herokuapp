@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./assets/ct-logo-dark.webp";
+import logo from "../assets/ct-logo-dark.webp";
 import { Navbar, Logo, NavLink, LeftNavItem, RightNavItem } from "./App.style";
-import { NAV_LINKS } from "./enums";
+import { NAV_LINKS } from "../enums";
 
 const Navigation = () => (
   <Navbar>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import stripeHelper from "./stripeHelper";
-import { STRIPE_ENUMS } from "./enums";
-import { formatPricing } from "./utils";
+import stripeHelper from "../stripeHelper";
+import { STRIPE_ENUMS } from "../enums";
+import { formatPricing } from "../utils";
 
 import { CTAContent, CTAButton, CTAMessaging, CTAWrapper } from "./App.style";
 

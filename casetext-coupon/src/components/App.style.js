@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import { COLOR_ENUMS } from "./enums";
+import { COLOR_ENUMS } from "../enums";
 
 const maxWidth = "950px";
 
