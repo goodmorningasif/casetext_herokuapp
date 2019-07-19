@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./assets/ct-logo-dark.webp";
 import { Navbar, Logo, NavLink, LeftNavItem, RightNavItem } from "./App.style";
+import { NAV_LINKS } from "./enums";
 
 const Navigation = () => (
   <Navbar>
@@ -8,15 +9,11 @@ const Navigation = () => (
       <Logo src={logo} className="App-logo" alt="logo" />
     </LeftNavItem>
     <RightNavItem>
-      <NavLink>Product</NavLink>
-      <NavLink>Pricing</NavLink>
-      <NavLink>Tour</NavLink>
-      <NavLink>Coverage</NavLink>
-      <NavLink>Switch</NavLink>
-      <NavLink>Big Firm</NavLink>
-      <NavLink>Law Schools</NavLink>
-      <NavLink>Sign In</NavLink>
-      <NavLink>Free Trial</NavLink>
+      {NAV_LINKS.map(link => (
+        <NavLink primary={link.primary} href={link.url}>
+          {link.title}
+        </NavLink>
+      ))}
     </RightNavItem>
   </Navbar>
 );
