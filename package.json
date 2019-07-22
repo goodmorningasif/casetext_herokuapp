@@ -12,7 +12,11 @@
     "styled-components": "4.3.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "react-scripts build && node server.js",
+    "rca_start": "react-scripts start",
+    "rca_build": "react-scripts build",
+    "rca_test": "react-scripts test",
+    "rca_eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
