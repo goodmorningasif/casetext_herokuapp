@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "CaseText Coupon App",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,10 +12,7 @@
     "styled-components": "4.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,7 +29,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "babel-plugin-macros": "2.6.1"
-  }
+  "devDependencies": {}
 }
