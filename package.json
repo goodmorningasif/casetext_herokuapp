@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-plugin-macros": "2.6.1",
+    "enzyme": "3.10.0",
     "express": "4.17.1",
     "path": "0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "stripe": "7.4.0",
-    "styled-components": "4.3.2",
-    "babel-plugin-macros": "2.6.1"
+    "styled-components": "4.3.2"
   },
   "scripts": {
-    "start": "react-scripts build && node server.js",
+    "start": "node server.js",
     "rca_start": "react-scripts start",
     "rca_build": "react-scripts build",
     "rca_test": "react-scripts test",

@@ -31,9 +31,21 @@ class CallToAction extends Component {
   render() {
     const { basePrice, discount } = this.state;
     return (
-      <CTAWrapper>
-        <CTAContent>
-          <CTAMessaging>
+      <CTAWrapper
+        ref={ref => {
+          this.ref_CTAWrapper = ref;
+        }}
+      >
+        <CTAContent
+          ref={ref => {
+            this.ref_CTAContent = ref;
+          }}
+        >
+          <CTAMessaging
+            ref={ref => {
+              this.ref_CTAMessaging = ref;
+            }}
+          >
             Our base price is ${formatPricing({ basePrice, discount })}/month
             for an annual subscription
           </CTAMessaging>
